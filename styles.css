@@ -53,16 +53,46 @@ input {
   color: white;
 }
 
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.flex-item-1 {
+  width: 30%;
+  color: white;
+  font-size: large;
+}
+.flex-item-2 {
+  width: 20%;
+  margin-top: 5%;
+  margin-right: 5%;
+}
+
 @media screen and (max-width: 375px) {
-  main {
+  .flex-container {
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10%;
   }
 
   .flex-item-1 {
-    padding-top: 60px;
+    padding-top: 80px;
     color: white;
     padding-left: 110px;
     text-align: center;
+    width: 60%;
+  }
+
+  .flex-item-2 {
+    width: 40%;
+    margin-right: 5%;
+    justify-content: center;
   }
 
   .form {
@@ -79,27 +109,9 @@ input {
     border-radius: 5px;
     padding-bottom: -5em;
     width: 187%;
-    height: 20vh;
+    height: 10vh;
     background-color: hsl(248, 32%, 49%);
     color: white;
     justify-content: center;
   }
-}
-
-.flex-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
-.flex-item-1 {
-  width: 30%;
-  color: white;
-  font-size: large;
-}
-.flex-item-2 {
-  width: 20%;
-  margin-top: 10%;
-  margin-right: 5%;
 }
