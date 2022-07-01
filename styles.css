@@ -80,6 +80,7 @@ input {
     align-items: center;
     justify-content: space-between;
     margin-top: 10%;
+    margin-right: 25%;
   }
 
   .flex-item-1 {
@@ -87,12 +88,13 @@ input {
     color: white;
     padding-left: 110px;
     text-align: center;
-    width: 85%;
-    line-height: 30px;
+    width: 100%;
+    /* line-height: 30px; */
+    margin-top: 5%;
   }
 
   .flex-item-2 {
-    width: 40%;
+    width: 55%;
     margin-right: 5%;
     justify-content: center;
   }
