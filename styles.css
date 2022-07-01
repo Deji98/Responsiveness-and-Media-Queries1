@@ -1,5 +1,5 @@
 body {
-  background-image: url(/bg-intro-desktop.png);
+  background-image: url(/desktop.png);
   background-color: hsl(0, 100%, 74%);
 }
 main {
@@ -73,6 +73,10 @@ input {
 }
 
 @media screen and (max-width: 375px) {
+  body {
+    background-image: url(/mobile.png);
+    background-color: hsl(0, 100%, 74%);
+  }
   .flex-container {
     display: flex;
     flex-direction: column;
