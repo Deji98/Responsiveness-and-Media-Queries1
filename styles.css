@@ -72,8 +72,7 @@ input {
   margin-right: 5%;
   padding-bottom: 20%;
 }
-
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 200px) and (max-width: 672px) {
   body {
     background-image: url(/mobile.png);
     background-color: hsl(0, 100%, 74%);
